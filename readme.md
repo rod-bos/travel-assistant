@@ -142,5 +142,5 @@ Example queries:
 
 **Rodrigo Bossan**  
 AI Developer • Travel Enthusiast  
-Built with ❤️ using FastAPI, LangChain, and Streamlit.
+Built with FastAPI, LangChain, and Streamlit.
 
