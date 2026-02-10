@@ -1,0 +1,88 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# ----------------------------------------
+# FastAPI / Uvicorn
+# ----------------------------------------
+# Uvicorn reload directory
+.reload/
+# Log files
+*.log
+
+# ----------------------------------------
+# RAG / LangChain / Embeddings / Chroma / FAISS
+# ----------------------------------------
+# Vector store directories
+chroma/
+chroma_db/
+chroma_db/*
+
+# FAISS
+faiss_index/
+faiss_store/
+*.faiss
+*.index
+
+# Milvus / Weaviate local cache (if used)
+milvus_data/
+weaviate_data/
+
+# LangChain cache
+.lc-cache/
+lc_cache/
+
+# LangGraph
+state_store/
+graph_store/
+
+# JSON or pickle state files
+*.pkl
+*.pickle
+*.jsonl
+
+# ----------------------------------------
+# Project config
+# ----------------------------------------
+# Environment variables
+*.env
+*.env.*
+secrets.json
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Backend files you might generate dynamically
+# ----------------------------------------
+uploads/
+data/
+tmp/
+temp/
+cache/
