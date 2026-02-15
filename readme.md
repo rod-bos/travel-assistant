@@ -1,4 +1,4 @@
-# 🧭 Travel Assistant — Developer Guide
+# 🧭 WIP - Travel Assistant — Developer Guide
 
 **Travel Assistant** is an AI-powered RAG (Retrieval-Augmented Generation) application built with **FastAPI**, **LangChain**, **Chroma**, and **Streamlit**.  
 It allows you to upload travel-related documents (like tickets, hotel reservations, itineraries) and ask natural-language questions about them.
